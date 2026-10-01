@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q1 Drill 2</title>
+    <style>
+        body{
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-color: rgb(215, 179, 136);
+        }
+        header{
+            text-align: center;
+            color: rgb(255, 255, 255);
+        }
+        section{
+            background-color: rgb(255, 255, 255);
+            padding: 20px;
+            border-radius: 12px;
+            width: 600px;
+            margin: 0 auto;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        input[type="text"],select, textarea, input [type="submit"] {
+            width: 94%;
+            padding: 15px;
+            border: 1px solid #e0dfd6;
+            border-radius: 5px;
+            text-align: center;
+        }
+        img{
+            display: block;
+            margin: auto;
+            height: 100px;
+            width: 100px;
+            padding: 0px;
+        }
+        input[type="submit"] {
+           width:100%;
+        }
+        h1,p1,p2 {
+            color: rgb(45, 34, 10)
+        }
+        p2{
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1> RATE THE MOVIE </h1>
+        <br>
+        <p1> Rate movies you have watched! </p1> 
+        <br>
+        <p2>Movie reviewing is the process of watching, analyzing, and giving an opinion about a movie.</p2>
+    </header>
+    <br>
+
+    <section>
+        <form action="">
+            <img src="https://i.pinimg.com/1200x/52/98/b0/5298b09e4a2dfdbba8b3b90c6f0f2703.jpg" alt="Movie Film Reel">
+            <br>
+
+            <label for="movie">Movie Title:</label>
+            <br>
+
+            <input type="text" id="movie" name="movie" placeholder="Enter here...">
+
+            <br>
+            <br>
+
+            <label for="genre">Genre/s:</label>
+            <br>
+            <input type="checkbox" id="genre1" name="genre1">
+            <label for="genre1">Action</label>
+            <input type="checkbox" id="genre2" name="genre2">
+            <label for="genre2">Comedy</label>
+            <input type="checkbox" id="genre3" name="genre3">
+            <label for="genre3">Drama</label>
+            <input type="checkbox" id="genre4" name="genre4">
+            <label for="genre4">Horror</label>
+            <input type="checkbox" id="genre5" name="genre5">
+            <label for="genre5">Sci-fi</label>
+            <input type="checkbox" id="genre6" name="genre6">
+            <label for="genre6">Romance</label>
+
+            <br>
+            <br>
+            <label for="rating">Rating:</label>
+            <br>
+            <input type="radio" id="rating1" name="rating">
+            <label for="rating1">⭐</label>
+            <input type="radio" id="rating2" name="rating">
+            <label for="rating2">⭐⭐</label>
+            <input type="radio" id="rating3" name="rating">
+            <label for="rating3">⭐⭐⭐</label>
+            <input type="radio" id="rating4" name="rating">
+            <label for="rating4">⭐⭐⭐⭐</label>
+            <input type="radio" id="rating5" name="rating">
+            <label for="rating5">⭐⭐⭐⭐⭐</label>
+
+
+            <br>
+            <br>
+            <textarea id="review" placeholder="Write your review here..." rows="4" cols="40"></textarea>
+            <br>
+
+            <input type="submit" id="submit" value="Submit Review">
+            <br>
+            <br>
+            <a href="https://www.fantasy-animation.org/current-posts/how-to-write-a-movie-review-a-step-by-step-guide" target="_blank">Here</a> for the guide in making a review.
+
+        </form>
+    </section>
+    <!--Reference
+        Smith, S. (2026, July 3). How to write a movie Review (A Step-by-Step Guide) — Fantasy/Animation. Fantasy/Animation. https://www.fantasy-animation.org/current-posts/how-to-write-a-movie-review-a-step-by-step-guide-->
+</body>
+</html>
